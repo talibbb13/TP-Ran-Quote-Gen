@@ -1,0 +1,72 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  
+  background-image: url("sigmaMale.png");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.container {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 80vw;
+  padding: 30px 18px;
+  background-color: whitesmoke;
+  box-shadow: 3px 5px 10px darkgrey;
+}
+
+#quoteContainer {
+  margin-bottom: 30px;
+}
+
+#quoteText {
+  font-size: 35px;
+  font-weight: 900;
+  color: #333;
+  text-transform: capitalize;
+  font-family: serif;
+}
+
+#authorName {
+  font-size: 25px;
+  color: #777;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.5vh 10vw 0 0;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+#randomButton {
+  background-color: black;
+  font-weight: bolder;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: background-color 0.3s;
+  font-family: fantasy;
+}
+
+#randomButton:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0 0 5px 2px lightgray;
+}
+
